@@ -1,0 +1,4 @@
+2024-09-07 11:07:42 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO TEAM ([*]'playerName' , 'jerseyNumber' , 'role')\000d\000aVALUES('aaarav','25','Bowler')"; expected "identifier"; SQL statement:
+INSERT INTO TEAM ('playerName' , 'jerseyNumber' , 'role')
+VALUES('aaarav','25','Bowler') [42001-214]
